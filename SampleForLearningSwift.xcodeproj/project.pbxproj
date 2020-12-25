@@ -14,6 +14,7 @@
 		50562F712498AF2900713E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50562F6F2498AF2900713E15 /* Main.storyboard */; };
 		50562F732498AF2A00713E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50562F722498AF2A00713E15 /* Assets.xcassets */; };
 		50562F762498AF2A00713E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50562F742498AF2A00713E15 /* LaunchScreen.storyboard */; };
+		9FE344862595D04F00793B9A /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE344852595D04F00793B9A /* SampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		50562F772498AF2A00713E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53DAE99A83E78B95F080D1A9 /* Pods-SampleForLearningSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleForLearningSwift.debug.xcconfig"; path = "Target Support Files/Pods-SampleForLearningSwift/Pods-SampleForLearningSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		7EEEE4EEE46874B079C4A377 /* Pods_SampleForLearningSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleForLearningSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE344852595D04F00793B9A /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		D9FBA78B492AAB5685A3BDA8 /* Pods-SampleForLearningSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleForLearningSwift.release.xcconfig"; path = "Target Support Files/Pods-SampleForLearningSwift/Pods-SampleForLearningSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				50562F692498AF2900713E15 /* AppDelegate.swift */,
 				50562F6B2498AF2900713E15 /* SceneDelegate.swift */,
 				50562F6D2498AF2900713E15 /* ViewController.swift */,
+				9FE344852595D04F00793B9A /* SampleViewController.swift */,
 				50562F6F2498AF2900713E15 /* Main.storyboard */,
 				50562F722498AF2A00713E15 /* Assets.xcassets */,
 				50562F742498AF2A00713E15 /* LaunchScreen.storyboard */,
@@ -88,7 +91,6 @@
 				53DAE99A83E78B95F080D1A9 /* Pods-SampleForLearningSwift.debug.xcconfig */,
 				D9FBA78B492AAB5685A3BDA8 /* Pods-SampleForLearningSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -191,6 +193,7 @@
 			files = (
 				50562F6E2498AF2900713E15 /* ViewController.swift in Sources */,
 				50562F6A2498AF2900713E15 /* AppDelegate.swift in Sources */,
+				9FE344862595D04F00793B9A /* SampleViewController.swift in Sources */,
 				50562F6C2498AF2900713E15 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
