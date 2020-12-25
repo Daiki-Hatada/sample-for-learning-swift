@@ -22,7 +22,7 @@ class SampleViewController: UIViewController {
         super.viewDidLoad()
 
         // set color of front view
-        view.backgroundColor = .red
+        view.backgroundColor = .blue
         
         // layout label
         label.center = view.center
